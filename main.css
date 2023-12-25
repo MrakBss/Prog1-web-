@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+body {
+    background: url(img/backmain.png) no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(18, 16, 16, .5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(112, 97, 97);
+    padding: 0 4%;
+    box-shadow: 0 10px 10px
+    #000;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo, .top_menu {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.top_menu li{
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.top_menu a {
+    
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.top_menu a:hover {
+    color:white;
+}
+.logo a {
+    font-family: Arial;
+    color: black;
+    font-size: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+h2 {
+    -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center; 
+  -ms-flex-pack: center;         
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  height: 65%; /*высота блока для примера работы.*/
+  padding: 5px;    
+  font-size: 350%;
+    color: white;
+}
